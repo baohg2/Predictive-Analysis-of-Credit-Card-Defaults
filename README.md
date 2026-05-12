@@ -1,5 +1,8 @@
 # Predictive Analysis of Credit Card Defaults
 
+## 💡 Executive Summary
+This project develops a predictive framework to identify credit card clients at risk of defaulting using a dataset of 10,000 customers and 23 financial and demographic features. Data preprocessing was performed before using two machine learning models to predict the default likelihood. Logistic Regression and K-Nearest Neighbors (KNN) algorithms were used to determine the most effective classification approach. Logistic Regression emerged as the superior model, providing a robust test accuracy of 80.4% and offering the high level of interpretability essential for strategic risk management in financial contexts.
+
 ## 📌 Project Objective
 The goal of this project is to predict the likelihood of credit card clients defaulting on their payments. By moving beyond traditional binary classification, this analysis aims to refine risk assessment by identifying specific individuals likely to default, thereby enhancing the precision of financial risk management strategies.
 
@@ -12,13 +15,10 @@ The dataset contains information on **10,000 clients** and includes 23 key predi
 
 ## 🛠️ Data Preprocessing & Engineering
 To ensure high data quality and model performance, the following steps were taken:
-* **Missing Value Imputation:** * Numerical variables (Age, Bill amounts) were filled using the **mean**.
-    * Categorical/Ordinal variables (Sex, Education, Marriage, Pay status) were filled using the **mode**.
-* **Feature Refinement:**
-    * **Education:** Consolidated undocumented categories (`0`, `5`, `6`) into category `4` (Others) to reduce noise.
-    * **Marriage:** Reassigned abnormal `0` values to category `3` (Others).
-* **One-Hot Encoding:** Categorical variables (`SEX`, `MARRIAGE`, `EDUCATION`) were converted into dummy variables using `drop_first=True` to avoid the dummy variable trap (multicollinearity).
-* **Feature Scaling:** Applied `StandardScaler` to normalize the data, ensuring distance-based models (like KNN) perform optimally.
+* Missing Value Imputation
+* Data transformation
+* One-Hot Encoding
+* Feature Scaling
 
 ## 🤖 Modeling & Performance
 We compared two distinct classification models:
@@ -38,6 +38,4 @@ We compared two distinct classification models:
 ## 🚀 Author
 
 Gia Bao Hoang
-2. Ensure you have the following libraries installed:
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn openpyxl
+
