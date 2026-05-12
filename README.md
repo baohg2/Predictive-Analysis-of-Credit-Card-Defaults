@@ -35,7 +35,12 @@ We compared two distinct classification models:
 ## 💡 Conclusion & Recommendation
 **Logistic Regression** is the recommended model for this application. While its training accuracy was slightly lower than KNN, its **superior test performance and high interpretability** make it ideal for the financial sector. In credit risk modeling, the ability to explain *why* a client is flagged for default (via model coefficients) is as critical as the prediction itself.
 
-## 🚀 Author
+## Tools Used
 
+- **Language**: Python
+- **Libraries**: `pandas`, `numpy`, `scikit-Learn`, `matplotlib`
+- **Jupyter Notebook**
+- 
+## 🚀 Author
 Gia Bao Hoang
 
