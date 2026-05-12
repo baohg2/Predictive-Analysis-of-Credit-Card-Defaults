@@ -1,7 +1,7 @@
 # Predictive Analysis of Credit Card Defaults
 
 ## 💡 Executive Summary
-This project develops a predictive framework to identify credit card clients at risk of defaulting using a dataset of 10,000 customers and 23 financial and demographic features. Data preprocessing was performed before using two machine learning models to predict the default likelihood. Logistic Regression and K-Nearest Neighbors (KNN) algorithms were used to determine the most effective classification approach. Logistic Regression emerged as the superior model, providing a robust test accuracy of 80.4% and offering the high level of interpretability essential for strategic risk management in financial contexts.
+This project develops a predictive framework to identify credit card defaults using a dataset of 10,000 customers and 23 financial and demographic features. Data preprocessing was performed before applying two machine learning models to predict the likelihood of default. Logistic Regression and K-Nearest Neighbors (KNN) algorithms were used to determine the most effective classification approach. Logistic Regression emerged as the superior model, providing a robust test accuracy of 80.4% and offering the high level of interpretability essential for strategic risk management in financial contexts.
 
 ## 📌 Project Objective
 The goal of this project is to predict the likelihood of credit card clients defaulting on their payments. By moving beyond traditional binary classification, this analysis aims to refine risk assessment by identifying specific individuals likely to default, thereby enhancing the precision of financial risk management strategies.
